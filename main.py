@@ -74,20 +74,20 @@ class ScoutingApp(customtkinter.CTk):
 		self.autonomous_label.grid(row=0, column=0, padx=(20, 0), pady=15, sticky='w')
 
 		self.auto_high_suc_down_button = customtkinter.CTkButton(self.main_frame, 
-																  width=32, height=32, 
-																  corner_radius=8, 
-																  text="-", 
-																  font=customtkinter.CTkFont(weight="bold"),
-																  command=self.rapid_react_auto_high_suc_down())
+																 width=32, height=32, 
+																 corner_radius=8, 
+																 text="-", 
+																 font=customtkinter.CTkFont(weight="bold"),
+																 command=self.rapid_react_auto_high_suc_down())
 		self.auto_high_suc_down_button.grid(row=1, column=0, padx=(20, 0), pady=5, sticky='nw')
 		self.auto_high_suc_label = customtkinter.CTkLabel(self.main_frame, text=f"{self.auto_high_success}", font=customtkinter.CTkFont(size=20))
 		self.auto_high_suc_label.grid(row=1, column=1)
 		self.auto_high_suc_up_button = customtkinter.CTkButton(self.main_frame, 
-																width=32, height=32, 
-																corner_radius=8, 
-																text="+", 
-																font=customtkinter.CTkFont(weight="bold"),
-																command=self.rapid_react_auto_high_suc_up())
+															   width=32, height=32, 
+															   corner_radius=8, 
+															   text="+", 
+															   font=customtkinter.CTkFont(weight="bold"),
+															   command=self.rapid_react_auto_high_suc_up())
 		self.auto_high_suc_up_button.grid(row=1, column=2, padx=20, pady=5, sticky='nw')
 	
 	def rapid_react_auto_high_suc_up(self):
