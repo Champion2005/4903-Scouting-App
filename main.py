@@ -53,7 +53,7 @@ class ScoutingApp(customtkinter.CTk):
 	# 2022 rapid react functions (probably best to make each year's game its own class)
 	def rapid_react(self):
 		"""
-		Basically just a proof of concept.
+		Basically just a proof of concept
 		"""
 		self.auto_high_success = 0
 		self.auto_high_fail = 0
